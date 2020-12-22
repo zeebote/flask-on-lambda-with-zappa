@@ -5,10 +5,10 @@
         "profile_name": "default",
         "project_name": "task",
         "runtime": "python3.6",
-        "s3_bucket": "ab-lambda"
+        "s3_bucket": "s3-lambda"
         "vpc_config" : {
-            "SubnetIds": [ "subnet-0d8e386b" ],
-            "SecurityGroupIds": [ "sg-246d1350" ]
+            "SubnetIds": [ "subnet-0ddi386b" ],
+            "SecurityGroupIds": [ "sg-246h1450" ]
         }
     }
 }
