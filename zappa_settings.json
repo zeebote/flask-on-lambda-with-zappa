@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "app_function": "zappa_init.app",
+        "aws_region": "us-west-1",
+        "profile_name": "default",
+        "project_name": "task",
+        "runtime": "python3.6",
+        "s3_bucket": "ab-lambda"
+        "vpc_config" : {
+            "SubnetIds": [ "subnet-0d8e386b" ],
+            "SecurityGroupIds": [ "sg-246d1350" ]
+        }
+    }
+}
